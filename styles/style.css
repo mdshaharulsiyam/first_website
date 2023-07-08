@@ -7,9 +7,40 @@ body{
 }
 .container{
     max-width: 1140px;
+    margin: 0 auto;
+}
+header{
+    background: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main_column{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+}
+.flex_column{
+    text-align: right;
+    width: 494px;
+    padding-top: 188px;
+}
+h1{
+    font-size: 65px;
+    font-weight: 700px; 
+    color: #FFFFFF;
+}
+p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 24px 0 32px 0;
+}
+a{
+    text-decoration: none;
+    color: #005FAC;
+    background: #FFFFFF;
+    font-size: 20px;
+    border-radius: 9px;
+    padding: 12px 22px;
+    display: inline-block;
+    margin-bottom: 166px;
 }
