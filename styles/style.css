@@ -8,6 +8,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    text-align: center;
 }
 header{
     background: url(../images/banner/banner3.png);
@@ -19,7 +20,7 @@ header{
     flex-wrap: wrap; 
     justify-content:space-between;
 }
-.flex_column{
+header .flex_column{
     text-align: right;
     width: 494px;
     padding-top: 188px;
@@ -29,12 +30,12 @@ h1{
     font-weight: 700px; 
     color: #FFFFFF;
 }
-p {
+header p {
     font-size: 16px;
     color: #FFFFFF;
     margin: 24px 0 32px 0;
 }
-a{
+header a{
     text-decoration: none;
     color: #005FAC;
     background: #FFFFFF;
@@ -43,4 +44,120 @@ a{
     padding: 12px 22px;
     display: inline-block;
     margin-bottom: 166px;
+}
+.failures_section{
+    margin-top: 131px;
+}
+.failures_section .main_column{
+    align-items: center;
+    max-width: 1072px;
+}
+.failures_section .flex_column{
+    width: 49%;
+}
+.failures_section .flex_column img{
+    width: 569px;
+}
+.failures_section .artical{
+    box-sizing: border-box;
+    padding: 0 0 0 100px;
+    text-align: left;
+    padding-top: 170px;
+}
+.failures_section .flex_column h3{
+ font-size: 40px;
+ font-weight:700;
+}
+.failures_section p{
+    margin: 24px 0 16px 0;
+    line-height: 26px;
+}
+.failures_section ul li {
+    list-style-type: none;
+    margin: 10px 0 0 20px;
+    position: relative;
+}
+.failures_section ul li::before{
+    position: absolute;
+    content: '';
+    background: url(../images/check\ 1.png);
+    height: 24px;
+    width: 24px;
+    left: -24px;
+}
+.plans{
+    margin: 100px 0 70px 0;
+}
+.plans h2{
+    font-size: 40;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.plans .flex_column{
+    text-align: center;
+}
+.call{
+    margin: 115px 0 0 0 ;
+    background: url(../images/watch.png);
+    text-align: left;
+    box-sizing: border-box;
+    padding: 59px 0px 75px 65px;
+}
+.call h4 {
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 460px;
+    margin-bottom: 24px;
+}
+.call .call_btn{
+    margin:0;
+    
+}
+footer{
+    background: #000;
+    box-sizing: border-box;
+    padding: 70px 0;
+}
+footer .flex_column{
+    text-align: left;
+    width: 35%;
+}
+footer h4{
+    font-size: 45px;
+    font-weight:700;
+    color: #FFFFFF;
+}
+footer p{
+    color: #FFFFFF;
+    margin:16px 0 0 0;
+}
+footer .contact{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 0;
+}
+footer .links{
+    margin: 0 5px ;
+}
+footer h5{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+footer input {
+    display: block;
+    font-size: 20px;
+    height: 47px;
+    background: #000;
+    outline: none;
+    border: 1px solid #ffff;
+    border-radius: 6px;
+    margin: 20px 0px;
+}
+footer .submit {
+    background: #005FAC;
+    border: none;
+    padding: 0px 40px;
+    font-size: 20px;
+    cursor: pointer;
 }
